@@ -5,10 +5,7 @@ from django.db import models
 
 
 class TestModel(models.Model):
-    name = models.CharField(max_length=100)
-
-    def __str__(self):
-        return self.name
+    name = models.CharField(max_length=50)
 
 
 class TestModel2(models.Model):
