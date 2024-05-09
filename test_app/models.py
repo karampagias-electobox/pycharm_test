@@ -10,6 +10,3 @@ class TestModel(models.Model):
 
 class TestModel2(models.Model):
     name = models.CharField(max_length=100, verbose_name="something", blank=True, null=True)
-
-    def __str__(self):
-        return self.name
